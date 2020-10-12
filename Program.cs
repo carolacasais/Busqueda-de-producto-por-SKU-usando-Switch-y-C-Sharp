@@ -8,7 +8,6 @@ namespace switch
         {
             // SKU = Stock Keeping Unit
             string sku = "01-MN-L";
-
             string[] product = sku.Split('-');
 
             string type = "";
@@ -60,7 +59,7 @@ namespace switch
                     break;
             }
 
-Console.WriteLine($"Product: {size} {color} {type}");
+            Console.WriteLine($"Product: {size} {color} {type}");
         }
     }
 }
